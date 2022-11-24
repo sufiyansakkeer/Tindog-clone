@@ -1,0 +1,368 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-rose: #FE4C69;
+  --clr-orange: #EF8172;
+  --font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  padding-left: 120px;
+  padding-right: 120px;
+  background: var(--clr-rose);
+  font-size: var(--font-size);
+  overflow: hidden;
+}
+.header .container {
+  width: 100%;
+  height: 650px;
+  padding-top: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+}
+.header .container .navbar {
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+}
+.header .container .navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  height: 3em;
+  padding: 0;
+}
+.header .container .navbar ul li {
+  padding-right: 2em;
+  font-size: 1.2rem;
+  opacity: 0.5;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+.header .container .navbar ul li a {
+  margin-right: auto;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+.header .container .navbar ul li:first-child {
+  margin-right: auto;
+  opacity: 1;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.header .container .content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0;
+}
+.header .container .content .left {
+  width: 50%;
+  padding-left: 20px;
+  font-size: 3em;
+}
+.header .container .content .left button {
+  width: 150px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 8px;
+}
+.header .container .content .left .applebtn {
+  background: black;
+  color: white;
+}
+.header .container .content .left .playbtn {
+  background: none;
+  color: white;
+  border-color: white;
+}
+.header .container .content .right {
+  width: 50%;
+}
+.header .container .content .right img {
+  transform: rotate(25deg);
+  margin-left: 40px;
+  margin-top: 40px;
+  height: 550px;
+}
+
+.second {
+  width: 100%;
+  height: 500px;
+  padding: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second #first {
+  float: left;
+  width: 33%;
+  padding: 90px;
+}
+.second #second {
+  float: left;
+  width: 33%;
+  padding: 90px;
+}
+.second #third {
+  float: right;
+  width: 33%;
+  padding: 90px;
+}
+.second img {
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: 80px;
+}
+.second h1 {
+  text-align: center;
+}
+
+.third {
+  width: 100%;
+  height: 490px;
+  padding: 90px;
+  display: flex;
+  padding: 50px;
+  background: #EF8172;
+}
+.third .sthird {
+  padding: 60px;
+  padding-left: 130px;
+  padding-right: 130px;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+.third .sthird .con {
+  width: 100%;
+}
+.third .sthird .con h1 {
+  font-size: 3em;
+  font-weight: 400;
+}
+.third .sthird .author {
+  display: flex;
+  margin-left: 300px;
+}
+.third .sthird .author img {
+  height: 100px;
+  border-radius: 60px;
+  margin: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.third .sthird .author p {
+  margin-top: 60px;
+  color: white;
+}
+
+.forth {
+  width: 100%;
+  height: 200px;
+  padding: 50px;
+  background: #EF8172;
+}
+.forth .sforth {
+  padding: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.forth .sforth img {
+  height: 50px;
+  margin: 20px;
+}
+
+.five {
+  width: 100%;
+  height: 200px;
+  padding: 70px;
+}
+.five .main {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.five .main h1 {
+  font-weight: bolder;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.five .main p {
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.six {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  margin-top: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.six .chi {
+  height: 330px;
+  width: 340px;
+  border-radius: 5%;
+  margin-right: 40px;
+  color: rgb(0, 0, 0);
+  border: solid 0.5px rgb(127, 127, 127);
+  display: flex;
+  flex-direction: column;
+}
+.six .chi .head {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  border-radius: 5%;
+  background: #ededed;
+  border: solid 0.5px rgb(127, 127, 127);
+}
+.six .chi .con {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.six .chi .con button {
+  background: white;
+  width: 120px;
+  height: 40px;
+  border-radius: 5%;
+  border: solid 1px rgb(127, 127, 127);
+}
+.six .lab {
+  height: 330px;
+  width: 340px;
+  border-radius: 5%;
+  color: rgb(0, 0, 0);
+  border: solid 0.5px rgb(127, 127, 127);
+  display: flex;
+  flex-direction: column;
+}
+.six .lab .head {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  border-radius: 5%;
+  background: #ededed;
+  border: solid 0.5px rgb(127, 127, 127);
+}
+.six .lab .con {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.six .lab .con button {
+  background: rgb(0, 0, 0);
+  color: white;
+  width: 120px;
+  height: 40px;
+  border-radius: 5%;
+  border: solid 1px rgb(127, 127, 127);
+}
+.six .mas {
+  height: 360px;
+  width: 340px;
+  border-radius: 5%;
+  margin-left: 40px;
+  color: rgb(0, 0, 0);
+  border: solid 0.5px rgb(127, 127, 127);
+  display: flex;
+  flex-direction: column;
+}
+.six .mas .head {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  border-radius: 5%;
+  background: #ededed;
+  border: solid 0.5px rgb(127, 127, 127);
+}
+.six .mas .con {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.six .mas .con button {
+  background: rgb(0, 0, 0);
+  color: white;
+  width: 120px;
+  height: 40px;
+  border-radius: 5%;
+  border: solid 1px rgb(127, 127, 127);
+}
+
+.seven {
+  width: 100%;
+  height: 430px;
+  display: flex;
+  padding: 100px;
+  padding-left: 260px;
+  padding-right: 260px;
+  background: #FE4C69;
+}
+.seven .main {
+  text-align: center;
+  justify-content: center;
+}
+.seven .main h1 {
+  color: white;
+  font-size: 3.5em;
+  font-weight: bolder;
+}
+.seven .main button {
+  width: 150px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 8px;
+}
+.seven .main .applebtn {
+  background: black;
+  color: white;
+}
+.seven .main .playbtn {
+  background: none;
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+}
+
+.foot {
+  width: 100%;
+  height: 400px;
+  padding: 70px;
+  padding-left: 180px;
+  padding-right: 180px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.foot .hi i {
+  margin: 30px;
+  font-size: 40px;
+}
+.foot a {
+  text-decoration: none;
+  color: rgb(0, 166, 255);
+}/*# sourceMappingURL=style.css.map */
